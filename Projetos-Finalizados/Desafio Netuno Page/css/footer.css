@@ -1,0 +1,101 @@
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    z-index:10;
+    height: 40vh;
+    background-color: black;
+    width: 100%;
+    color: var(--cor4);
+}
+
+footer .rodape{ 
+    width: 30%;
+}
+
+footer .rodape ul{
+    flex-direction: row;
+    display: flex;
+    margin-top: 5%;
+    margin-left: -11%;
+    list-style-type: none;
+}
+
+footer .rodape ul li{
+    margin-left: 10%;
+    margin-bottom: 2%;
+}
+
+
+.icon{
+    height: 55%;
+}
+
+footer .footer-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    height: 15%;
+    width: 13%;
+    margin-right: 10%;
+    background-color: var(--cor4);
+    margin-top: -100px;
+}
+
+footer .footer-btn a{
+    color: black;
+}
+
+footer .footer-btn:hover{
+    background-color: var(--cor2);
+    border: 0.3px solid black;
+    color: black;
+}
+
+footer .contato{
+    margin-left: 3%;
+}
+
+footer span{
+    height: 50%;
+    width: 1px;
+    background-color: var(--cor4);
+    margin-left: 2%;
+}
+
+footer .contato p{
+    padding: 5%;
+    font-size: 0.9rem;
+}
+
+footer .footer-menu{
+    width: 8%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+footer .footer-menu ul li{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+footer .footer-menu ul li a{
+    margin-left: 2vw;
+    padding: 4%;
+    font-size: 0.8rem;
+}
+
+footer .footer-btn a{
+    text-decoration: none;
+}

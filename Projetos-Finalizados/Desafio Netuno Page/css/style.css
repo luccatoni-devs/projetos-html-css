@@ -1,0 +1,181 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+    --cor1: #1A7FBD;
+    --cor2: #A4DCFF;
+    --cor3: #000000;
+    --cor4: #FFFFFF;
+}
+
+*{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1rem;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+a:active{
+    transform: scale(0.9);
+}
+
+a:hover{
+    font-weight: 900;
+}
+
+a{
+    color:var(--cor4);
+}
+
+.header-btn:active{
+    transform: scale(0.9);
+}
+
+button{
+    appearance: unset!important;
+}
+
+.code-main, .container-main, .container{
+    display:flex;
+    max-width:1280px;
+    width:100%;
+    justify-content:center;
+    align-items:center;
+    gap: 10%;
+}
+
+section{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.section-3 .cards{
+    margin-top: -10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    width: 25%;
+    margin: 1rem;
+    box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.459);
+    background-color: var(--cor4);
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    text-align: center;
+}
+
+.card h2{
+    font-size: 1.6vw;
+    padding: 15px;
+}
+
+.card p{
+    padding: 5%;
+    font-size: 14px;
+    font-weight: 500;
+    height: 80px;
+}
+
+.jornada{
+    height: 100vh;
+    padding: 15%;
+    justify-content: center;
+    align-items: center;
+}
+
+.jornada .tilt{
+    text-align: center;
+    margin-top: -60%;   
+}
+
+.section-3 .caixas{
+    margin-top: -10%;
+    height: 40%;
+    width: 80%;
+    display: flex;
+}
+
+.section-3 .caixa-2{
+    margin-top: -10%;
+    height: 40%;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.section-3 .box{
+    background-color: var(--cor1);
+    height: 5em;
+    width: 20em;
+    margin: 0.5em;
+    box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.459);
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    text-align: center;
+}
+
+.section-4 .square-bloco{
+    height: 50%;
+    display: flex;
+    width: 80%;
+}
+
+.section-4 .square{
+    height: 80%;
+    width: 30%;
+    margin: 2%;
+    box-shadow: 1%, 1%, 1% 1% black;
+    background-color: var(--cor4);
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 1px  10px 12px rgba(0, 0, 0, 0.236);
+}
+
+.section-4 .square h2{
+    font-size: 1.6vw;
+    color: black;
+}
+
+.section-4 .square h3{
+    padding: 5%;
+    font-size: 1.2vw;
+    font-weight: 500;
+    color: black;
+}
+
+.section-4 .square:hover{
+    height: 82%;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+a:-webkit-any-link {
+    cursor: pointer;
+}
+
+div{
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.caixas h3{
+    font-size: 0.85rem;
+}
